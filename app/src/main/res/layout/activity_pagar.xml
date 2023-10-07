@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:backgroundTint="#27134C"
+    tools:context=".Pagar">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="288dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="60dp"
+        android:text="Escoja el servicio que desea pagar"
+        android:textAlignment="center"
+        android:textColor="#F6EFEF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#E91E63"
+        android:text="Telefonia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#E91E63"
+        android:text="GAS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#E91E63"
+        android:text="Electricidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
